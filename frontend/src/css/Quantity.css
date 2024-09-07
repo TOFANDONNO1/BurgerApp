@@ -1,0 +1,38 @@
+/* Quantity.css */
+
+.quantity-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+  }
+  
+  .quantity-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .quantity-button:hover {
+    background-color: #45a049;
+  }
+  
+  .quantity-button:active {
+    transform: scale(0.98);
+  }
+  
+  .quantity-display {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  

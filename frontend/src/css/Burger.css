@@ -1,0 +1,61 @@
+/* Burger.css */
+
+.burger {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .bread-top {
+    background-color: #c69c6d;
+    padding: 10px;
+    border-radius: 15px 15px 0 0;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .bread-bottom {
+    background-color: #c69c6d;
+    padding: 10px;
+    border-radius: 0 0 15px 15px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+  }
+  
+  .slice {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .slice.aloo-tikki {
+    background-color: #f5c6c6;
+  }
+  
+  .slice.cheese {
+    background-color: #ffeb99;
+  }
+  
+  .slice.paneer {
+    background-color: #f5a9a9;
+  }
+  
+  .slice.lettuce {
+    background-color: #c2f0c2;
+  }
+  
+  .burger p {
+    font-style: italic;
+    color: #777;
+  }
+  

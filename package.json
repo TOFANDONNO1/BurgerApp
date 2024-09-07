@@ -1,0 +1,16 @@
+{
+  "name": "burger-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd frontend && npm start",   
+    "server": "cd backend && npm start",  
+    "start": "concurrently \"npm run server\" \"npm run client\""  
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
